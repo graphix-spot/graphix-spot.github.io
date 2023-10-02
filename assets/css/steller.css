@@ -11221,6 +11221,27 @@ pre {
 }
 
 
+/* My Certificate Section */
+
+.custom-crt {
+  border-radius: 0.35rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.custom-crt .card-body {
+  padding: 10px;
+  text-align: left;
+   margin-left: 10px;
+}
+
+.custom-crt .card-body p {
+  font-style: italic;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+
 /* My Interest Section */
 
 .custom-car {

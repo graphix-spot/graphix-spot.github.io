@@ -11003,12 +11003,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .title {
-  font-size: calc(12px + (25 - 18) * ((100vw - 320px) / (1200 - 320)));
+  font-size: calc(18px + (25 - 18) * ((100vw - 320px) / (1200 - 320)));
 }
 
 @media (min-width: 992px) {
   .title {
-    font-size: 12px;
+    font-size: 28px;
   }
 }
 
@@ -11230,7 +11230,7 @@ pre {
 }
 
 .custom-crt .card-body {
-  padding: 10px;
+  padding: 10px ;
   text-align: left;
    margin-left: 10px;
 }

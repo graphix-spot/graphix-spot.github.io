@@ -48,7 +48,7 @@
   
       // Find the "App" filter item and store it in a variable
 
-      let defaultFilter = document.querySelector('[data-filter=".filter-logo"]');
+      let defaultFilter = document.querySelector('[data-filter=".filter-poster"]');
   
       // Add the 'filter-active' class to the "App" filter item by default
       if (defaultFilter) {
@@ -56,7 +56,7 @@
       }
   
       portfolioIsotope.arrange({
-        filter: '.filter-logo' // Set the default filter to ".filter-app"
+        filter: '.filter-poster' // Set the default filter to ".filter-app"
       });
   
       portfolioIsotope.on('arrangeComplete', function() {
